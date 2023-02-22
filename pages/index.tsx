@@ -1,7 +1,7 @@
 
 
 import DataAPI from "./component/dataAPI";
-
+import Card from "./component/card";
 
 
 interface Product {
@@ -35,6 +35,7 @@ function Products({ products }: ProductsProps): JSX.Element {
   
     <div className="bg-slate-700">
     <DataAPI products={products}/>  
+    <Card/>
     </div>
 
  
